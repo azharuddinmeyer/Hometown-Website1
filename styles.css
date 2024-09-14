@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    
+    
+}
+
+
+body {
+     font-family: monospace;                                       
+     /* background-color: #78c6a3; */
+     font-size: 14px;
+     font-family: poppins;
+     margin: 0;
+}
+
+.container {
+     width: 100%;
+     height: 650px;
+    /* border: 1px dotted black; */
+     background-image: url(images/tableview.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin: 0px;
+     padding: 0px;
+     border-bottom: 1px solid black;
+     
+    
+
+}
+
+.container2 {
+     width: 100%;
+     height: 500px;
+     display: flex;
+     align-items: start;
+     justify-content:center;
+     margin-bottom: 50px;
+     margin-bottom: 10px;
+     
+} 
+
+.activities {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;  
+     width: 20%;
+     padding: 40px;
+     margin: 20px;
+     /* height: 400px; */
+     /* background-color: #fefae0; */
+     border-radius: 50px;
+     font-weight: 400;
+}
+ 
+.activities > .activity-header {
+     min-height: 10vh;
+     font-size: 16px;
+}
+
+
+.container3 {
+     width: 100%;
+     height: 500px;
+     display: flex;
+     align-items: start;
+     justify-content:center;
+     margin-bottom: 50px;
+     margin-bottom: 100px;
+     
+
+}
+
+.container4 {
+     width: 100%;
+     height: 500px;
+     display: flex;
+     align-items: start;
+     justify-content:center;
+     margin-bottom: 50px;
+     margin-bottom: 100px;
+    
+
+}
+
+.title1 {
+     text-align: center;
+     font-family: poppins;
+     font-weight: 500;
+     margin-top: 50px;
+     
+
+     
+}
+
+.title2 {
+     text-align: center;
+     font-family: poppins;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     max-width: 50%;
+     font-weight: 300;
+     align-items: center;
+     margin: 0 auto;
+}
+
+
+#header1 {
+     color: white;
+     text-align: center;
+     font-family: poppins;
+     font-weight:800;
+     font-size: 45px;
+     margin: 0;
+     padding-top: 2em;
+     
+
+
+}
+
+#header2 {
+     font-family: poppins;
+     font-weight: 200;
+     font-style: italic;
+     color: black;
+     margin: 50px;
+     width: 500px;
+     height: 10px;
+     display: flex;
+     flex-direction: column;
+     
+} 
+
+
+#cablecar {
+     width: 250px;
+     padding-top: 0px;
+     height: 150px;
+     border-radius: 40px;
+     transition: 0.5s;
+
+     #cablecar:hover
+    
+    
+}
+
+#capepoint {
+     width: 250px;
+     height: 150px;
+     padding-top: 0px;
+     border-radius: 40px;
+    
+}
+
+#boulders {
+     width: 250px;
+     height: 150px;
+     padding-top: 0px;
+     border-radius: 40px;
+    
+}
+
+#paragliding {
+     width: 250px;
+     height: 150px;
+     border-radius: 40px;
+    
+}
+
+#muizenberg {
+     width: 250px;
+     height: 150px;
+     border-radius: 40px;
+}
+
+#bokaap {
+     width: 250px;
+     height: 150px;
+     border-radius: 40px;
+}
+
+#card {
+    width: 400px;
+    height: 400px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+
+.card-image {
+    width: 100px;
+    border-radius: 50px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+     .container2, .container3, .container4  {
+          flex-direction: column;
+          height: unset;
+     }
+
+     .container {
+          flex-direction: column;
+          height: unset;
+          
+     }
+
+     .activities {
+          width: 100%;
+
+     }
+
+     .card-image {
+     flex-direction: column;
+     height: unset;
+     
+     }
+
+ 
+
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+    
